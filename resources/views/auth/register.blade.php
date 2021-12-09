@@ -23,11 +23,14 @@
 
              <div>
                 <x-jet-label for="std_id" value="{{ __('std_id') }}" />
-                <x-jet-input id="std_id" class="block mt-1 w-full" type="text" name="std_id" :value="old('std_id')" required autofocus autocomplete="std_id" />
+                <x-jet-input id="std_id" class="block mt-1 w-full" type="text" name="std_id" :value="old('std_id')"  autofocus autocomplete="std_id" />
             </div>
 
             
-            
+            <div>
+                <x-jet-label for="phone" value="{{ __('phone') }}" />
+                <x-jet-input id="phone" class="block mt-1 w-full" type="text" name="phone" :value="old('phone')"  autofocus autocomplete="phone" />
+            </div>
 
             <div>
                 <x-jet-label for="address" value="{{ __('address') }}" />
@@ -36,17 +39,17 @@
 
              <div>
                 <x-jet-label for="department" value="{{ __('department') }}" />
-                <x-jet-input id="department" class="block mt-1 w-full" type="text" name="department" :value="old('department')" required autofocus autocomplete="department" />
+                <x-jet-input id="department" class="block mt-1 w-full" type="text" name="department" :value="old('department')"  autofocus autocomplete="department" />
             </div>
 
              <div>
                 <x-jet-label for="batch" value="{{ __('batch') }}" />
-                <x-jet-input id="batch" class="block mt-1 w-full" type="text" name="batch" :value="old('batch')" required autofocus autocomplete="batch" />
+                <x-jet-input id="batch" class="block mt-1 w-full" type="text" name="batch" :value="old('batch')"  autofocus autocomplete="batch" />
             </div>
 
             <div>
                 <x-jet-label for="semester" value="{{ __('semester') }}" />
-                <x-jet-input id="semester" class="block mt-1 w-full" type="text" name="semester" :value="old('semester')" required autofocus autocomplete="semester" />
+                <x-jet-input id="semester" class="block mt-1 w-full" type="text" name="semester" :value="old('semester')"  autofocus autocomplete="semester" />
             </div>
 
             
@@ -62,8 +65,8 @@
             </div>
             <br>
             <div>
-                <x-jet-label for="image" value="{{ __('image') }}" />
-                <x-jet-input id="image" class="block mt-1 w-full" type="file" name="image" :value="old('image')" required autofocus autocomplete="image" />
+                <x-jet-label for="file" value="{{ __('file') }}" />
+                <x-jet-input id="file" class="block mt-1 w-full" type="file" name="file" :value="old('file')" required autofocus autocomplete="file" />
             </div>
 
             @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())

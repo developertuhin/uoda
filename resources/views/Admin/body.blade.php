@@ -1,4 +1,4 @@
- <div class="main-panel">
+<!--  <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">
               <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
@@ -144,17 +144,17 @@
               </div>
             </div>
 
-          <!-- content-wrapper ends -->
+          <!- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
-          <footer class="footer">
+          <!-- <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
               <span class="text-muted d-block text-center text-sm-center  d-sm-inline-block">Copyright © universityauthority.com 2021</span>
               
             </div>
-          </footer>
+          </footer> -->
           <!-- partial -->
-        </div>
+       <!--  </div> -->
         <!-- main-panel ends -->
-      </div>
+     <!--  </div> -->
       <!-- page-body-wrapper ends -->
-    </div>
+   <!--  </div>  -->
